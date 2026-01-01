@@ -1,4 +1,4 @@
-class Tmpltool < Formula
+class TmpltoolAT12 < Formula
   desc "tmpltool - A fast template renderer supporting many datasources and hundreds of functions."
   homepage "https://github.com/bordeux/tmpltool"
   license "MIT"

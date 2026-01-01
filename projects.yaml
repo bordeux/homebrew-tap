@@ -1,0 +1,18 @@
+# Homebrew Formula Generator Configuration
+# Each project will have a formula auto-generated from its GitHub releases
+
+projects:
+  - repo: bordeux/tmpltool
+    keep_versions: 1  # Keep 1 past major.minor versions (e.g., 1.2, 1.1)
+
+    # Optional overrides (auto-detected if not specified):
+    # name: tmpltool              # Formula name (defaults to repo name)
+    # description: "..."          # Formula description (defaults to GitHub repo description)
+    # license: MIT                # License (defaults to GitHub repo license)
+    # homepage: https://...       # Homepage (defaults to GitHub repo URL)
+    # binary_name: tmpltool       # Name of the binary to install (defaults to repo name)
+    # asset_patterns:             # Patterns to match release assets (auto-detected if not specified)
+    #   macos_arm64: "macos-aarch64"
+    #   macos_x86_64: "macos-x86_64"
+    #   linux_arm64: "linux-aarch64"
+    #   linux_x86_64: "linux-x86_64"
