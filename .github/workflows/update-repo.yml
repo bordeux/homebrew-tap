@@ -1,4 +1,4 @@
-name: Update Homebrew Formulas
+name: Update Homebrew Repo
 
 on:
   # Manual trigger with optional project selection
