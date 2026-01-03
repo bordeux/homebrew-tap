@@ -1,5 +1,5 @@
 class Tmpltool < Formula
-  desc "A fast template renderer supporting many datasources and hundreds of functions"
+  desc "Fast template renderer supporting many datasources and hundreds of functions"
   homepage "https://github.com/bordeux/tmpltool"
   version "1.3.1"
   license "MIT"
