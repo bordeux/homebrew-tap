@@ -208,8 +208,8 @@ def generate_formula(project: Project, release: Release, is_versioned: bool = Fa
     formula = f'''class {class_name} < Formula
   desc "{project.description}"
   homepage "{project.homepage}"
-  license "{project.license}"
   version "{release.version}"
+  license "{project.license}"
 
 '''
 
