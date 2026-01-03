@@ -1,8 +1,8 @@
 class TmpltoolAT13 < Formula
-  desc "tmpltool - A fast template renderer supporting many datasources and hundreds of functions."
+  desc "A fast template renderer supporting many datasources and hundreds of functions"
   homepage "https://github.com/bordeux/tmpltool"
-  license "MIT"
   version "1.3.1"
+  license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
