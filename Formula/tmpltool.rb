@@ -1,26 +1,26 @@
 class Tmpltool < Formula
   desc "Fast template renderer supporting many datasources and hundreds of functions"
   homepage "https://github.com/bordeux/tmpltool"
-  version "1.4.2"
+  version "1.4.3"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/bordeux/tmpltool/releases/download/v#{version}/tmpltool-macos-aarch64.tar.gz"
-      sha256 "847d8e76acdb68045d086324e6381bf73005d3dadba9464746ce7ad56890ca8e"
+      sha256 "994dc3f7e4c7ab7875a74a4612e4a9762bab4fb0cbb4f681524d79e872b8ab19"
     else
       url "https://github.com/bordeux/tmpltool/releases/download/v#{version}/tmpltool-macos-x86_64.tar.gz"
-      sha256 "68431c196a631e163d9efda958e966a351e422f58c233dfb85e66f91ad11ee08"
+      sha256 "f8c0acfe8000bb3dbc442c45c3cac52f6987d8e479de4b22ebcc5121493fafbe"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/bordeux/tmpltool/releases/download/v#{version}/tmpltool-linux-aarch64.tar.gz"
-      sha256 "ac621e97ad293d5659097b8bf3da746e7464887b106d84d929ccd7351bb26489"
+      sha256 "852d1d8ed9b32196700912f78f369b90215f002a0743f03d5f1b3e8f2682d0a1"
     else
       url "https://github.com/bordeux/tmpltool/releases/download/v#{version}/tmpltool-linux-x86_64.tar.gz"
-      sha256 "26dc3fe69208b52c145b03d3650393162b5f1cf1a339b5047d09bede532bdaaa"
+      sha256 "d623e785a4c0579a3de7a636a2858402018247b329196668c9f1080a6c7e07ea"
     end
   end
 
